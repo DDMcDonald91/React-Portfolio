@@ -1,38 +1,110 @@
 .App {
   text-align: center;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#s{
+  margin: 5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.body-text {
+  font-size: 1.2rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.section-title {
+  font-size: 3rem;
+  border-left: 2px solid red;
+  padding-left: 10px;
+}
+
+/* Components CSS */
+
+/* Navigation Component CSS */
+
+#navigation-container {
+  margin: 0;
+  padding: 0;
+}
+
+/* DisplayCard Component CSS */
+
+.contact-icons {
+  font-size: 3rem;
+  padding: 10px 10px;
+}
+
+/* Footer CSS */
+
+#footer-container {
+  padding: 0;
+  background-color: black;
+}
+
+#footer-text {
+  color: whitesmoke;
+}
+
+.footer-icons {
+  font-size: 1.5rem;
+}
+
+/* Hero CSS */
+
+#hero-container {
+  height: 100vh;
+  background-image: url('./Components/Images/heroBg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* About CSS */
+
+#about-container {
+  background-color: whitesmoke;
+  height: auto;
+  color: black;
+  height: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#about-inner-container {
+  padding: 3rem 0;
+}
+
+/* Skills CSS */
+
+#skills-container {
+  background-color: black;
+  color: white;
+  width: 100vw;
+  padding: 0px;
+}
+
+#skills-inner-container {
+  padding: 3rem 0px;
+}
+
+.skill {
+  font-size: 3rem;
+  color: whitesmoke;
+  width: auto;
+}
+
+/* Projects CSS */
+
+#projects-container {
+  height: auto;
+  padding: 0;
+  background-color: whitesmoke;
+}
+
+#projects-inner-container {
+  padding: 3rem 0px;
+}
+
+.project-card {
+  padding: 10px;
 }
