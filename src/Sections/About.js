@@ -1,6 +1,6 @@
 import { Container, Row, Col, Button  } from 'react-bootstrap';
 import DisplayCard from '../Components/DisplayCard.js';
-import Resume from '../Documents/Resume.pdf';
+import UpdatedResume from '../Documents/UpdatedResume.pdf';
 
 export default function About() {
   return (
@@ -19,7 +19,7 @@ export default function About() {
                 I am passionate all things regarding web design and development.
                 I truly enjoy learning new technologies and techniques to further better my skills.</p>
                 <br/>
-                <a href={Resume} target='_blank' download><Button>Resume</Button></a>
+                <a href={UpdatedResume} target='_blank' rel="noreferrer" download><Button>Resume</Button></a>
                 </Col>
             </Row>
         </Container>

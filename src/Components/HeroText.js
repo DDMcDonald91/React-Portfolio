@@ -12,7 +12,7 @@ export default function HeroText() {
         .typeString('my name is Dominik McDonald')
         .pauseFor(2000)
         .deleteAll()
-        .typeString('i am a frontend dev!')
+        .typeString('i am a Front End Dev!')
         .start();
         }}
     />
