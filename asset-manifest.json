@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.bc2693a2.css",
-    "main.js": "/React-Portfolio/static/js/main.38b93a0b.js",
-    "static/media/greystone.png": "/React-Portfolio/static/media/greystone.7e70c3a4ee1984e3f6a7.png",
+    "main.css": "/React-Portfolio/static/css/main.c6b19a88.css",
+    "main.js": "/React-Portfolio/static/js/main.e46cca25.js",
+    "static/media/game.png": "/React-Portfolio/static/media/game.4bdbfd1c4a0a8100716d.png",
     "static/media/idPic.jpg": "/React-Portfolio/static/media/idPic.f716901b0182f4fdb639.jpg",
     "static/media/heroBg.jpg": "/React-Portfolio/static/media/heroBg.6b9eec57704d70c5f051.jpg",
     "static/media/timeless.png": "/React-Portfolio/static/media/timeless.0deaf5a99a2fe2c3e24e.png",
     "static/media/poke.png": "/React-Portfolio/static/media/poke.3607f03ad064c92b7550.png",
     "static/media/UpdatedResume.pdf": "/React-Portfolio/static/media/UpdatedResume.a58ff66704e61c65e713.pdf",
     "index.html": "/React-Portfolio/index.html",
-    "main.bc2693a2.css.map": "/React-Portfolio/static/css/main.bc2693a2.css.map",
-    "main.38b93a0b.js.map": "/React-Portfolio/static/js/main.38b93a0b.js.map"
+    "main.c6b19a88.css.map": "/React-Portfolio/static/css/main.c6b19a88.css.map",
+    "main.e46cca25.js.map": "/React-Portfolio/static/js/main.e46cca25.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc2693a2.css",
-    "static/js/main.38b93a0b.js"
+    "static/css/main.c6b19a88.css",
+    "static/js/main.e46cca25.js"
   ]
 }
