@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+* {
+  font-family: 'Advent Pro', sans-serif;
+}
+
 #s{
   margin: 5rem;
 }
@@ -31,8 +35,9 @@
 /* DisplayCard Component CSS */
 
 .contact-icons {
-  font-size: 3rem;
+  font-size: 3.5rem;
   padding: 10px 10px;
+  color: #b84b74;
 }
 
 /* Footer CSS */

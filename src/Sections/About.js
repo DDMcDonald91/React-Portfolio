@@ -19,7 +19,7 @@ export default function About() {
                 I am passionate all things regarding web design and development.
                 I truly enjoy learning new technologies and techniques to further better my skills.</p>
                 <br/>
-                <a href={UpdatedResume} target='_blank' rel="noreferrer" download><Button>Resume</Button></a>
+                <a href={UpdatedResume} target='_blank' rel="noreferrer" download><Button variant="dark">Download Resume</Button></a>
                 </Col>
             </Row>
         </Container>

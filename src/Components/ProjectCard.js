@@ -1,4 +1,4 @@
-import { Container, Card, ListGroup, ListGroupItem } from 'react-bootstrap';
+import { Container, Card, ListGroup, ListGroupItem, Button } from 'react-bootstrap';
 
 export default function ProjectCard(props) {
   return (
@@ -15,8 +15,8 @@ export default function ProjectCard(props) {
                 <ListGroupItem>{props.skill3}</ListGroupItem>
             </ListGroup>
             <Card.Body>
-                <Card.Link href={props.demo} target='_blank'>View Demo</Card.Link>
-                <Card.Link href={props.github} target='_blank'>View Github</Card.Link>
+                <Card.Link href={props.demo} target='_blank'><Button variant="dark">View Demo</Button></Card.Link>
+                <Card.Link href={props.github} target='_blank'><Button variant="outline-secondary">View Github</Button></Card.Link>
             </Card.Body>
             </Card>
     </Container>
