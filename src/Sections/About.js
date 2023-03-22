@@ -22,7 +22,7 @@ export default function About() {
                       <DisplayCard style={{paddingLeft: '0px'}} />
                     </motion.div>
                   </Col>
-                  <Col style={{padding: '10px'}} sm={12} md={7}>
+                  <Col style={{padding: '20px'}} sm={12} md={7}>
                     <motion.div
                         initial={{ opacity: 0, x: 200 }}
                         whileInView={{ opacity: 1, x: 0 }}

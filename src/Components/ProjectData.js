@@ -28,7 +28,7 @@ export const ProjectData = [
         title: "Blak Kontroller", 
         text: "A website created for finding free PC games. Click the link to learn more.",
         skills: ["React", "Axios", "Bootstrap"],
-        demo: "https://blakkontoller.com",
+        demo: "https://blakkontroller.com",
         image: All.game,
         githubDisplay: "block",
         privateDisplay: "hidden",
