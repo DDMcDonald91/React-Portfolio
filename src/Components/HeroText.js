@@ -6,13 +6,13 @@ export default function HeroText() {
     <Container className='section-title'>
       <Typewriter
         onInit={(typewriter) => {
-        typewriter.typeString('hi.')
+        typewriter.typeString('Hi.')
         .pauseFor(2000)
         .deleteAll()
-        .typeString('my name is Dominik McDonald')
+        .typeString('My Name is Dominik McDonald')
         .pauseFor(2000)
         .deleteAll()
-        .typeString('i am a Front End Dev!')
+        .typeString('I Am A Full Stack Dev!')
         .start();
         }}
     />

@@ -1,33 +1,32 @@
 import { Container, Row, Col } from 'react-bootstrap';
-import { AiFillHtml5 } from 'react-icons/ai';
-import { DiNodejs } from 'react-icons/di';
-import { SiCss3, SiJavascript, SiBootstrap, SiReact, SiSolidity, SiShopify, SiWix, SiWordpress, SiCanva } from 'react-icons/si';
+import SkillCard from '../Components/SkillCard';
+import { SkillsData } from '../Components/SkillsData';
+import { motion } from 'framer-motion';
 
 
 export default function Skills() {
   return (
     <Container fluid id='skills-container'>
         <Container id='skills-inner-container'>
-        <Container>
+        <Container className='mb-5'>
             <h3 className='section-title'>My Skills</h3>
         </Container>
         <Container>
-        <Row>
-            <Col className='skill'><AiFillHtml5 /></Col>
-            <Col className='skill'><SiCss3 /></Col>
-            <Col className='skill'><SiJavascript /></Col>
-            <Col className='skill'><SiBootstrap /></Col>
-            <Col className='skill'><SiReact /></Col>
-            <Col className='skill'><DiNodejs /></Col>
-            <Col className='skill'><SiSolidity /></Col>
-        </Row>
-        <Container style={{width: '30%', background: 'white', height: '2px', margin: '2rem 0'}}></Container>
-        <Row>
-          <Col className='skill'><SiShopify /></Col>
-          <Col className='skill'><SiWix /></Col>
-          <Col className='skill'><SiWordpress /></Col>
-          <Col className='skill'><SiCanva/></Col>
-        </Row>
+          <Row xs={2} md={4}>
+            {SkillsData.map((skill) => {
+              return(
+                <motion.div
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{ duration: 0.5, delay: .1 }}
+                >
+                <Col>
+                  <SkillCard title={skill.name} icon={skill.symbol} classification={skill.classification} />
+                </Col>
+                </motion.div>
+              )
+            })}
+          </Row>
         </Container>
         </Container>
     </Container>
