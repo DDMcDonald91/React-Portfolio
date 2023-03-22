@@ -5,7 +5,7 @@ export const ProjectData = [
         title: "Kenzo AI", 
         text: "A fullstack app utilizing ChatGPT for content creators. Click the link to learn more.",
         skills: ["React", "Firebase", "Stripe", "Express"],
-        demo: "https://canecorsoresources.co",
+        demo: "https://trykenzoai.com",
         image: All.kenzo,
     },
     {
