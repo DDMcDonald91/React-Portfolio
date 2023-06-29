@@ -1,6 +1,7 @@
 import * as All from './Images/';
 
 export const ProjectData = [
+    /*
     {
         title: "Kenzo AI", 
         text: "A fullstack app utilizing ChatGPT for content creators. Click the link to learn more.",
@@ -8,6 +9,7 @@ export const ProjectData = [
         demo: "https://trykenzoai.com",
         image: All.kenzo,
     },
+    */
     {
         title: "Altered NWLA", 
         text: "A website created for a nonprofit organization based out of Shreveport, LA. Click the link to learn more.",
