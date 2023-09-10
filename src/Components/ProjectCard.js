@@ -18,7 +18,7 @@ export default function ProjectCard(props) {
             </ListGroup>
              <Card.Body>
                   <Card.Link href={props.demo} target='_blank'>
-                    <Button className='w-100 mt-2 mb-2' variant="dark">View Demo</Button>
+                    <Button className='w-100 mt-2 mb-2' variant="dark">View Site</Button>
                   </Card.Link>
                   <br />
                   {props.github ? 
